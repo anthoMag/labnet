@@ -1,0 +1,33 @@
+.intro {
+  text-align: center;
+  font-style: italic;
+  font-weight: 200;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4823529412);
+  background: url(../image/background-top.png) no-repeat center bottom;
+  background-size: cover;
+  padding-bottom: 70px;
+  max-width: 1920px;
+  margin: auto;
+  margin-top: -58px;
+}
+.intro .container {
+  max-width: 1040px;
+  margin: auto;
+  padding: 0px 10px;
+}
+.intro .container h1 {
+  margin: 0;
+  padding: 70px 0 0;
+  font-size: 32px;
+  font-weight: 200;
+}
+.intro .container img {
+  height: 170px;
+}
+.intro .container h2 {
+  font-weight: 200;
+  color: #C8D0DA;
+  margin: 10px 0;
+}
+
+/*# sourceMappingURL=intro.css.map */
