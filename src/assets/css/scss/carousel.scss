@@ -1,0 +1,128 @@
+@import "var.scss";
+
+.carousel {
+    background-color: $orb2;
+    color: $alice;
+    margin-top: -65px;
+    align-items: center;
+	display: flex;
+	justify-content: center;
+    box-shadow: 1px 1px 3px $shadow;
+
+    @mixin background {
+        background-color: #0000; 
+    }
+    
+    $animationSpeed: 30s;
+    
+    @keyframes scroll {
+        0% {
+            // transform: translateX(400px);
+            left: 100%;
+        }
+        // * le nombre de joueurs + 2
+         100% { 
+            // transform: translateX(calc(-300px * 5))
+            left: -(300px * 5);
+        }
+    }
+    
+    .slider {
+        box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+        height: 80px;
+        max-width: $containerDesktop;
+        margin: auto;
+        overflow: hidden;
+        position: relative;
+        font-style: italic;
+        text-shadow: 1px 1px 3px $shadow;
+        position: relative;
+        width: 100%;
+
+        &::before,
+        &::after {
+            @include background;
+            position: absolute;
+            width: 200px;
+            z-index: 2;
+        }
+        
+        &::after {
+            right: 0;
+            top: 0;
+            transform: rotateZ(180deg);
+        }
+    
+        &::before {
+            left: 0;
+            top: 0;
+        }
+        
+        .slide-track {
+            animation: scroll $animationSpeed linear infinite;            
+            position: absolute;
+            top: 0;
+            left: 100%;
+            display: flex;
+            width: calc(300px * 5);
+        }
+        
+        .slide {
+            height: 80px;
+            width: 300px;
+            padding: 5px;
+        }
+
+        .info {
+             
+            text-align: center;
+
+            p {
+                margin: 0;
+
+                &:nth-of-type(1) {
+                    font-size: 20px;
+                    color: $cadet;
+                    font-weight: 400;
+                    margin-top: 11px;
+                }
+            }
+        }
+
+        .player {
+            
+            display: flex;
+            font-size: 20px;
+
+            .head {
+                height: 70px;
+                width: 70px;
+                margin-right: 5px;
+                background-color: $prussian;
+                border-radius: 5px;
+            }
+
+            .name {
+                font-weight: 300;
+                margin: 0;
+                color: $french;
+            }
+
+            .rank {
+                display: flex;
+
+                p {
+                    margin: 4px 0 0;
+
+                    &:nth-of-type(1) {
+                    font-weight: 400;
+                    }
+                    &:nth-of-type(2) {
+                    color: $cadet;
+                    margin-left: 7px;
+                    }
+                }
+            }
+        }
+    }
+}

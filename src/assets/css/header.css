@@ -1,3 +1,6 @@
+.header {
+  z-index: 1000;
+}
 .header nav {
   background-color: rgba(2, 22, 34, 0.6509803922);
   position: relative;
@@ -12,14 +15,21 @@
 }
 .header nav img:nth-of-type(1) {
   height: 50px;
-  left: 13px;
-  top: 4px;
+  left: 9px;
+  top: 0;
+  padding: 4px;
+  transition: 0.1s;
+}
+.header nav img:nth-of-type(1):hover {
+  transition: 0.1s;
+  filter: brightness(10);
 }
 .header nav img:nth-of-type(2) {
   height: 32px;
-  right: 13px;
-  top: 13px;
+  right: 3px;
+  top: 3px;
   display: none;
+  padding: 10px;
 }
 .header nav .menu {
   display: flex;

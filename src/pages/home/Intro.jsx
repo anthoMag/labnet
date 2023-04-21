@@ -15,6 +15,7 @@ function Intro() {
             <h2>C’est ici que vous retrouverez les résultats des joueurs qui ont participé au jeu ‘Le Labyrinthe’ sur Minecraft, présenté par Izzgun et Keidopamine</h2>
 
         </div>
+        
       </div>
     );
   }
