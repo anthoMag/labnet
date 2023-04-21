@@ -1,7 +1,8 @@
-import '../../assets/css/home.css';
+import '../../assets/css/scss/home.scss';
 import Intro from './Intro';
 import Carousel from './Carousel';
 import Resume from './Resume';
+import Saison from './Saison';
 
 function Home() {
 
@@ -10,6 +11,7 @@ function Home() {
         <Intro />
         <Carousel />
         <Resume />
+        <Saison />
       </div>
     );
   }

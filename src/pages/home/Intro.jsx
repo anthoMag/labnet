@@ -1,4 +1,3 @@
-import '../../assets/css/intro.css';
 import Logo from '../../assets/image/logo.svg';
 
 function Intro() {
@@ -12,7 +11,7 @@ function Intro() {
 
             <img src={Logo} alt="" />
 
-            <h2>C’est ici que vous retrouverez les résultats des joueurs qui ont participé au jeu ‘Le Labyrinthe’ sur Minecraft, présenté par Izzgun et Keidopamine</h2>
+            <h2>C’est ici que vous retrouverez les résultats des joueurs qui ont participé au jeu ‘Le Labyrinthe’ sur Minecraft, présenté par Izzgun et Keidopamine.</h2>
 
         </div>
         

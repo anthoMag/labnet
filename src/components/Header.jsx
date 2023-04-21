@@ -1,4 +1,4 @@
-import '../assets/css/header.css';
+import '../assets/css/scss/header.scss';
 import Logo from '../assets/image/logo.svg';
 import Burger from '../assets/image/burger.svg';
 import { useState, useEffect } from 'react';

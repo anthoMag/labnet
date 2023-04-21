@@ -1,16 +1,10 @@
-import '../../assets/css/carousel.css';
 import { useState } from 'react';
 
 function Carousel() {
 
-  const [width, setWidth] = useState (window.innerWidth);
-  console.log(width);
-
-
-
-    return (
+  return (
       <div className="carousel">
-        <div className="slider" width={width}>
+        <div className="slider" width={window.innerWidth}>
           <div className="slide-track">
             
             <div className="slide info">
