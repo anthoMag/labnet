@@ -3,10 +3,14 @@ function Saison() {
     return (
       <div className="saison">
 
-        <h3>RESUMÉ DE LA DERNIÈRE SAISON</h3>
+        <div className="container">
 
-        <div></div>
-        
+          <h3>SAISONS PRÉCÉDENTES</h3>
+
+          <div className="selecter"></div>
+          
+        </div>
+
       </div>
     );
   }

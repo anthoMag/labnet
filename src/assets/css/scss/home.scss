@@ -3,3 +3,14 @@
 @import "intro.scss";
 @import "resume.scss";
 @import "saison.scss";
+@import "gameplay.scss";
+
+.home {
+    h3 {
+        font-size: 24px;
+        color: $french;
+        text-shadow: 1px 1px 3px $shadow;
+        font-weight: 300;
+        font-style: italic;
+    }
+}

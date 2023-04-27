@@ -1,0 +1,27 @@
+.gameplay {
+        
+    .container {
+        max-width: $containerDesktop;
+        padding: 10px;
+        margin: auto;
+    }
+
+    h3 {
+        margin: 0 0 5px;
+    }
+
+    p {
+        color: $cadet;
+        margin: 5px 0 20px;
+    }
+
+    .img-area {
+        max-width: 100%;
+        height: 200px;
+        background-color: $prussian;
+        border-radius: 10px;
+    }
+
+}
+
+

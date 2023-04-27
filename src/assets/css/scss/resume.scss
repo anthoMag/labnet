@@ -1,13 +1,10 @@
 .resume {
     max-width: $containerDesktop;
     margin: auto;
+    padding: 0 10px;
 
     h3 {
-        font-size: 20px;
-        font-weight: 300;
-        font-style: italic;
         margin: 25px 0 10px;
-        text-shadow: 1px 1px 3px $shadow;
     }
 
     :nth-child(2) {

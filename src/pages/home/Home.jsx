@@ -3,6 +3,7 @@ import Intro from './Intro';
 import Carousel from './Carousel';
 import Resume from './Resume';
 import Saison from './Saison';
+import Gameplay from './Gameplay';
 
 function Home() {
 
@@ -12,6 +13,7 @@ function Home() {
         <Carousel />
         <Resume />
         <Saison />
+        <Gameplay />
       </div>
     );
   }
