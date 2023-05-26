@@ -24,20 +24,30 @@
         }
     }
 
+    .img-responsive {
+        div .img-area:first-child, div:first-child > .img-area:nth-child(2) {
+            margin-bottom: 10px;
+        }
+    }
+
     @media screen and (min-width: $containerDesktop) {
 
         .img-responsive {
 
+            div .img-area:first-child, div:first-child > .img-area:nth-child(2) {
+                margin-bottom: 0;
+            }
+
             div {
                 display: flex;
         
-                div:nth-child(1) {
-                    margin-right: 3px;
+                div:first-child {
+                    margin-right: 10px;
                 }
             }
 
-            & > div:nth-child(1) {
-                margin-bottom: 3px;
+            & > div:first-child {
+                margin-bottom: 10px;
             }
         }
     }

@@ -52,7 +52,7 @@ function Gameplay() {
           </div>
           <p>Le labyrinthe est composé de 8 sections placées l’une après l’autre qui entoure le labyrinthe. Les sections présenteront des épreuves que les équipes devront réaliser afin de sortir du labyrinthe.</p>
         
-          <h3>LES SECTIONS</h3>
+          <h3>SAISON BONUS</h3>
           <p>Le Labyrinthe se jouera sur 1 chapitre par an. Chaque chapitre est composé de 5 saisons. 4 saisons classiques et 1 saison spéciale pour clotûrer le chapitre (SAISON FINAL ENDGAME). Les 10 meilleurs joueurs du classement des 4 saisons classiques du chapitre seront qualifiés pour y participer. Cette édition se jouera chacun pour soi. Les 3 premiers joueurs à sortir du labyrinthe seront sacrés : ‘Légende du Labyrinthe’.</p>
         </div>
       </div>
