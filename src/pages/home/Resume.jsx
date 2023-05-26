@@ -1,3 +1,5 @@
+import Test from '../../assets/image/resume/';
+
 function Resume() {
 
     return (
@@ -5,7 +7,13 @@ function Resume() {
 
         <h3>RESUMÉ DE LA DERNIÈRE SAISON</h3>
 
-        <div></div>
+        <div class="last-season">
+
+          <div>
+            <img src={Test} alt="" />
+          </div>
+
+        </div>
         
       </div>
     );
