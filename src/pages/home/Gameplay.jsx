@@ -29,7 +29,7 @@ function Gameplay() {
           <div className="img-area">
             <img src={GameplayImg.Img2} alt="" />
           </div>
-          <p>Le bloc, placé à l’intérieur du labyrinthe est un lieu paisible où sera installer une équipe pour y développer son agriculture, ses ressources, et ses équipements. 4 portes situées sur chaque mur du bloc se fermeront au couché du soleil et s’ouvriront au levé du jour pour pénétrer dans le labyrinthe.</p>
+          <p>Le bloc, placé à l’intérieur du labyrinthe est un lieu paisible où sera installée une équipe pour y développer son agriculture, ses ressources, et ses équipements. 4 portes situées sur chaque mur du bloc se fermeront au couché du soleil et s’ouvriront au levé du jour pour pénétrer dans le labyrinthe.</p>
 
           <h3>LES SECTIONS</h3>
           <div className="img-responsive">
