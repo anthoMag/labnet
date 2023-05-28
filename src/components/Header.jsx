@@ -1,6 +1,6 @@
 import '../assets/css/scss/header.scss';
-import Logo from '../assets/image/logo.svg';
-import Burger from '../assets/image/burger.svg';
+import Logo from '../assets/images/logo.svg';
+import Burger from '../assets/images/burger.svg';
 import { useState, useEffect } from 'react';
 
 function Header() {

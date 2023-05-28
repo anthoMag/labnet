@@ -1,4 +1,4 @@
-import GameplayImg from '../../assets/image/gameplay';
+import GameplayImg from '../../assets/images/gameplay';
 
 function Gameplay() {
 
